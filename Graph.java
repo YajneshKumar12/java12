@@ -18,7 +18,7 @@ public class Graph
 			}
 			q = new LinkedList<Integer>();
 		}
-		public void addEdge(int u, int v)
+		public void addEdge(int u, int v) //adding of the edges
 		{
 			adjlist[v].add(u);
 			//adjlist[v].add(u);	
