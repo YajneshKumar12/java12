@@ -13,7 +13,7 @@ public class Graph_demo {
 		g.addEdge(0,4);
 		g.addEdge(1,4);
 		//g.printAdjList();
-		System.out.println("BFS for the graph is");
+		System.out.println("BFS for the graph is"); //print bfs
 		g.BFS(0);
 
 
