@@ -28,7 +28,7 @@ public class Graph
 				for(int i=0;i<adjlist; i++)
 				{
 					System.out.println("Adj list :\n" +i);
-					for(int j=0;j<adjlist.get(i).size(); j++) // no of edges connected to the vertex
+					for(int j=0;j<adjlist.get(i).size(); j++) // No of edges connected to the vertex shown
 					{
 						System.out.println(" "+adjlist.get(i).get(j));
 					}
